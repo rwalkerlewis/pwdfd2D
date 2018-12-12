@@ -1,0 +1,350 @@
+
+    
+    
+    
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* from displacement to strain and to stress  at t = n        *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* for  (ix=NOP; ix<fdm->nxpad-NOP-1; ix++) { */
+    /*   for (iz=NOP; iz<fdm->nzpad-NOP-1; iz++) { */
+    /* 	txx[ix][iz] = (lambdau[ix][iz] + 2.0*shm[ix][iz])*Dx(uox,ix,iz,idx) + lambdau[ix][iz]*Dz(uoz,ix,iz,idz) */
+    /* 	  + alpha[ix][iz]*biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz)); */
+    /* 	tzz[ix][iz] = (lambdau[ix][iz] + 2.0*shm[ix][iz])*Dz(uoz,ix,iz,idz) + lambdau[ix][iz]*Dx(uox,ix,iz,idx) */
+    /* 	  + alpha[ix][iz]*biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz)); */
+    /* 	p[ix][iz]   = -1.0*alpha[ix][iz]*biotmod[ix][iz]*(Dx(uox,ix,iz,idx) + Dz(uoz,ix,iz,idz)) - biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz)); */
+    /*   } */
+    /* } */
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* free surface *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* Francesco: the z component of the traction must be zero at the free surface *\/ */
+    /* if (fsrf) { */
+    /*   for (ix=0; ix<fdm->nxpad; ix++) { */
+    /* 	for (iz=0; iz<fdm->nb; iz++) { */
+    /* 	  txx[ix][iz]=0; */
+    /* 	  tzz[ix][iz]=0; */
+    /* 	  tzx[ix][iz]=0; */
+    /* 	  p[ix][iz]=0; */
+    /* 	} */
+    /*   } */
+    /*   for (ix=0; ix<fdm->nxpad; ix++) { */
+    /* 	tzz[ix][iz]=0.0; */
+    /*   } */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* inject stress source                                       *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* if (srctype == STRESS || srctype == TENSOR) { */
+    /*   lint2d_bell(tzz,ww[it][0],cs); */
+    /*   lint2d_bell(txx,ww[it][1],cs); */
+    /* } */
+    /* if (srctype == TENSOR){ */
+    /*   lint2d_bell(tzx,ww[it][2],cs); */
+    /* } */
+    /* if (dabc){ */
+    /*   sponge2d_apply(txx,spo,fdm); */
+    /*   sponge2d_apply(tzx,spo,fdm); */
+    /*   sponge2d_apply(tzz,spo,fdm); */
+    /*   sponge2d_apply(p, spo, fdm); */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* from stress to acceleration  t = n + 1/2                   *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* */
+    /*  * ax = Bx(txx) + Fz(txz) */
+    /*  * az = Fx(txz) + Bz(tzz) */
+    /*  *\/ */
+    /* for (ix = NOP; ix<fdm->nxpad-NOP; ix++) { */
+    /*   for (iz = NOP; iz<fdm->nzpad-NOP; iz++) { */
+    /* 	/\* filtration velocity, t = n + 1/2 *\/ */
+    /* 	qpz[ix][iz] = coeff_D[ix][iz]*qoz[ix][iz] + coeff_E[ix][iz]*(Dx(tzx,ix,iz,idx) + Dz(tzz,ix,iz,idz)) + coeff_F[ix][iz]*Dz(p,ix,iz,idz); */
+    /* 	qpx[ix][iz] = coeff_D[ix][iz]*qox[ix][iz] + coeff_E[ix][iz]*(Dx(txx,ix,iz,idx) + Dz(tzx,ix,iz,idz)) + coeff_F[ix][iz]*Dx(p,ix,iz,idx); */
+
+    /* 	/\* particle velocity, t = n + 1/2 *\/ */
+    /* 	vpz[ix][iz] = voz[ix][iz] + coeff_A[ix][iz]*(Dx(tzx,ix,iz,idx) + Dz(tzz,ix,iz,idz)) + coeff_B[ix][iz]*Dz(p,ix,iz,idz) + coeff_C[ix][iz]*(qpz[ix][iz] + qoz[ix][iz])*0.5; */
+    /* 	vpx[ix][iz] = vox[ix][iz] + coeff_A[ix][iz]*(Dx(txx,ix,iz,idx) + Dz(tzx,ix,iz,idz)) + coeff_B[ix][iz]*Dx(p,ix,iz,idx) + coeff_C[ix][iz]*(qpx[ix][iz] + qox[ix][iz])*0.5; */
+
+    /* 	/\* particle acceleration, t = n + 1/2 *\/ */
+    /* 	uaz[ix][iz] = (mro[ix][iz]*(Dx(tzx,ix,iz,idx) + Dz(tzz,ix,iz,idz)) + fro[ix][iz]*Dz(p,ix,iz,idz) + fro[ix][iz]*fmo[ix][iz]*qpz[ix][iz])/r_bar[ix][iz]; */
+    /* 	uax[ix][iz] = (mro[ix][iz]*(Dx(txx,ix,iz,idx) + Dz(tzx,ix,iz,idz)) + fro[ix][iz]*Dx(p,ix,iz,idx) + fro[ix][iz]*fmo[ix][iz]*qpx[ix][iz])/r_bar[ix][iz]; */
+
+    /* 	/\* filtration acceleration, t = n + 1/2 *\/ */
+    /* 	waz[ix][iz] = (-1.0*fro[ix][iz]*(Dx(tzx,ix,iz,idx) + Dz(tzz,ix,iz,idz)) + bro[ix][iz]*Dz(p,ix,iz,idz) + bro[ix][iz]*fmo[ix][iz]*qpz[ix][iz])/r_bar[ix][iz]; */
+    /* 	wax[ix][iz] = (-1.0*fro[ix][iz]*(Dx(txx,ix,iz,idx) + Dz(tzx,ix,iz,idz)) + bro[ix][iz]*Dx(p,ix,iz,idx) + bro[ix][iz]*fmo[ix][iz]*qpx[ix][iz])/r_bar[ix][iz]; */
+    /*   } */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* inject ACCELERATION source                                 *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* if (srctype == ACCELERATION) { */
+    /*   lint2d_bell(uaz,ww[it][0],cs); */
+    /*   lint2d_bell(uax,ww[it][1],cs); */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* step forward in time                                       *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* for   (ix=NOP; ix<fdm->nxpad-NOP; ix++) { */
+    /*   for  (iz=NOP; iz<fdm->nzpad-NOP; iz++) { */
+    /* 	/\* filtration displacement, t = n + 1 *\/ */
+    /* 	wpz[ix][iz] = 2.0*woz[ix][iz] - wmz[ix][iz] + dt*dt*waz[ix][iz]; */
+    /* 	wpx[ix][iz] = 2.0*wox[ix][iz] - wmx[ix][iz] + dt*dt*wax[ix][iz]; */
+
+    /* 	/\* particle displacement, t = n + 1 *\/ */
+    /* 	upz[ix][iz] = 2.0*uoz[ix][iz] - umz[ix][iz] + dt*dt*uaz[ix][iz]; */
+    /* 	upx[ix][iz] = 2.0*uox[ix][iz] - umx[ix][iz] + dt*dt*uax[ix][iz]; */
+    /*   } */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* inject DISPLACEMENT source                                 *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* if (srctype == DISPLACEMENT) { */
+    /*   lint2d_bell(upz,ww[it][0],cs); */
+    /*   lint2d_bell(upx,ww[it][1],cs); */
+    /* } */
+
+    /* /\*------------------------------------------------------------*\/ */
+    /* /\* apply the boundary condition                               *\/ */
+    /* /\* undrained, fixed all around                                *\/ */
+    /* /\*------------------------------------------------------------*\/ */
+    /* for (ix = 0; ix < fdm->nxpad; ix++){ */
+    /*   for (iz = 0; iz < NOP; iz++){ */
+    /* 	upz[ix][iz] = 0.0f; */
+    /* 	upx[ix][iz] = 0.0f; */
+    /* 	wpz[ix][iz] = 0.0f; */
+    /* 	wpx[ix][iz] = 0.0f; */
+    /*   } */
+    /* } */
+    /* for (ix = 0; ix < fdm->nxpad; ix++){ */
+    /*   for (iz = fdm->nzpad-NOP; iz < fdm->nzpad; iz++){ */
+    /* 	upz[ix][iz] = 0.0f; */
+    /* 	upx[ix][iz] = 0.0f; */
+    /* 	wpz[ix][iz] = 0.0f; */
+    /* 	wpx[ix][iz] = 0.0f; */
+    /*   } */
+    /* } */
+    /* for (ix = 0; ix < NOP; ix++){ */
+    /*   for (iz = 0; iz < fdm->nzpad; iz++){ */
+    /* 	upz[ix][iz] = 0.0f; */
+    /* 	upx[ix][iz] = 0.0f; */
+    /* 	wpz[ix][iz] = 0.0f; */
+    /* 	wpx[ix][iz] = 0.0f; */
+    /*   } */
+    /* } */
+    /* for (ix = fdm->nxpad-NOP; ix < fdm->nxpad; ix++){ */
+    /*   for (iz = 0; iz < fdm->nzpad; iz++){ */
+    /* 	upz[ix][iz] = 0.0f; */
+    /* 	upx[ix][iz] = 0.0f; */
+    /* 	wpz[ix][iz] = 0.0f; */
+    /* 	wpx[ix][iz] = 0.0f; */
+    /*   } */
+    /* } */
+    /* /\* circulate wavefield arrays *\/ */
+    /* /\* Change pointers around *\/ */
+
+    /* /\* particle displacement *\/ */
+    /* utz=umz; utx=umx; */
+    /* umz=uoz; umx=uox; */
+    /* uoz=upz; uox=upx; */
+    /* upz=utz; upx=utx; */
+
+    /* /\* relative displacement *\/ */
+    /* wtz=wmz; wtx=wmx; */
+    /* wmz=woz; wmx=wox; */
+    /* woz=wpz; wox=wpx; */
+    /* wpz=wtz; wpx=wtx; */
+
+    /* /\* partcle velocity *\/ */
+    /* vtz=vmz; vtx=vmx; */
+    /* vmz=voz; vmx=vox; */
+    /* voz=vpz; vox=vpx; */
+    /* vpz=vtz; vpx=vtx; */
+
+    /* /\* relative velocity *\/ */
+    /* qtz=qmz; qtx=qmx; */
+    /* qmz=qoz; qmx=qox; */
+    /* qoz=qpz; qox=qpx; */
+    /* qpz=qtz; qpx=qtx; */
+
+    /* /\* Apply the zero-incidence boundary condition *\/ */
+    /* if (abcone){ */
+    /*   /\* if (verb) sf_warning("Applying zero-incidence boundary"); *\/ */
+    /*   abcone2d_apply(uoz,umz,NOP,abcp,fdm); */
+    /*   abcone2d_apply(uox,umx,NOP,abcp,fdm); */
+
+    /*   abcone2d_apply(woz,wmz,NOP,abcp,fdm); */
+    /*   abcone2d_apply(wox,wmx,NOP,abcp,fdm); */
+
+    /*   abcone2d_apply(uoz,umz,NOP,abcs,fdm); */
+    /*   abcone2d_apply(uox,umx,NOP,abcs,fdm); */
+
+    /*   abcone2d_apply(woz,wmz,NOP,abcs,fdm); */
+    /*   abcone2d_apply(wox,wmx,NOP,abcs,fdm); */
+    /* } */
+    /* /\* sponge ABC *\/ */
+    /* if (dabc){ */
+    /*   /\* if (verb) sf_warning("Applying sponge ABC");       *\/ */
+    /*   sponge2d_apply(umz,spo,fdm); */
+    /*   sponge2d_apply(uoz,spo,fdm); */
+    /*   sponge2d_apply(upz,spo,fdm); */
+
+    /*   sponge2d_apply(wmz,spo,fdm); */
+    /*   sponge2d_apply(woz,spo,fdm); */
+    /*   sponge2d_apply(wpz,spo,fdm); */
+
+    /*   sponge2d_apply(umx,spo,fdm); */
+    /*   sponge2d_apply(uox,spo,fdm); */
+    /*   sponge2d_apply(upx,spo,fdm); */
+
+    /*   sponge2d_apply(wmx,spo,fdm); */
+    /*   sponge2d_apply(wox,spo,fdm); */
+    /*   sponge2d_apply(wpx,spo,fdm); */
+    /* } */
+
+
+
+
+
+    for  (ix=NOP; ix<fdm->nxpad-NOP-1; ix++) {
+      for (iz=NOP; iz<fdm->nzpad-NOP-1; iz++) {
+    	txx[ix][iz] = (lambdau[ix][iz] + 2.0*shm[ix][iz])*Dx(uox,ix,iz,idx) + lambdau[ix][iz]*Dz(uoz,ix,iz,idz)
+    	  + alpha[ix][iz]*biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz));
+    	tzz[ix][iz] = (lambdau[ix][iz] + 2.0*shm[ix][iz])*Dz(uoz,ix,iz,idz) + lambdau[ix][iz]*Dx(uox,ix,iz,idx)
+    	  + alpha[ix][iz]*biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz));
+    	p[ix][iz]   = -1.0*alpha[ix][iz]*biotmod[ix][iz]*(Dx(uox,ix,iz,idx) + Dz(uoz,ix,iz,idz)) - biotmod[ix][iz]*(Dx(wox,ix,iz,idx) + Dz(woz,ix,iz,idz));
+      }
+    }
+    
+
+    
+    /* /\* Calculate constituitive relations *\/ */
+    /* for (ix = NOP; ix < fdm->nxpad-NOP; ix++) { */
+    /*   for (iz = NOP; iz < fdm->nzpad-NOP; iz++) { */
+    /* 	      /\* txx(i+1/2,j+1/2), m *\/ */
+    /* 	      txx[ix][iz] = txx[ix][iz] + dt*( ( lambdau[ix][iz]                   ) * Dx(vox,ix,iz,idx) + */
+    /* 	                                       ( lambdau[ix][iz] + 2.0*shm[ix][iz] ) * Dz(voz,ix,iz,idz) +  */
+    /* 	                                       ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dx(qox,ix,iz,idx) + */
+    /* 	                                       ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dz(qoz,ix,iz,idz) ); */
+    /* 	      /\* txz(i,j+1), m *\/ */
+    /* 	      txz[ix][iz] = txz[ix][iz] + dt*( ( shm[ix][iz]                       ) * Dx(voz,ix,iz,idx) + */
+    /*                                      ( shm[ix][iz]                       ) * Dz(vox,ix,iz,idx) ); */
+    /* 	      /\* tzx(i,j+1), m *\/ */
+    /* 	      tzx[ix][iz] = txz[ix][iz] + dt*( ( shm[ix][iz]                       ) * Dx(voz,ix,iz,idx) + */
+    /*                                      ( shm[ix][iz]                       ) * Dz(vox,ix,iz,idx) ); */
+    /* 	      /\* tzz(i+1/2,j+1/2), m *\/ */
+    /* 	      tzz[ix][iz] = tzz[ix][iz] + dt*( ( lambdau[ix][iz] + 2.0*shm[ix][iz] ) * Dx(vox,ix,iz,idx) + */
+    /* 	                                       ( lambdau[ix][iz]                   ) * Dz(voz,ix,iz,idz) +  */
+    /* 	                                       ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dx(qox,ix,iz,idx) + */
+    /* 	                                       ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dz(qoz,ix,iz,idz) ); */
+    /* 	      /\* p(i+1/2,j+1/2), m *\/ */
+    /* 	      p[ix][iz]   =   p[ix][iz] - dt*( ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dx(vox,ix,iz,idx) + */
+    /*                                      ( alpha[ix][iz]   * biotmod[ix][iz] ) * Dz(voz,ix,iz,idz) + */
+    /*                                      ( biotmod[ix][iz]                   ) * Dx(qox,ix,iz,idx) +  */
+    /*                                      ( biotmod[ix][iz]                   ) * Dz(qoz,ix,iz,idz) ); */
+    /*   } */
+    /* } */
+    /* /\* ---------------------------------------------- *\/ */
+    /* /\* Inject stress source *\/ */
+    /* /\* ---------------------------------------------- *\/ */
+    /* if (srctype == STRESS || srctype == TENSOR) { */
+    /*   lint2d_inject(txx, ww[it][0], cs); */
+    /*   lint2d_inject(tzz, ww[it][0], cs); */
+    /*   lint2d_inject(  p, ww[it][0], cs); */
+    /* } */
+    /* if (dabc) { */
+    /*   sponge2d_apply(txx,spo,fdm); */
+    /*   sponge2d_apply(txz,spo,fdm); */
+    /*   sponge2d_apply(tzx,spo,fdm); */
+    /*   sponge2d_apply(tzz,spo,fdm); */
+    /*   sponge2d_apply(  p,spo,fdm);       */
+    /* } */
+    
+    /* /\* Update velocities *\/ */
+    /* for (ix = NOP; ix < fdm->nxpad-NOP; ix++) { */
+    /*   for (iz = NOP; iz < fdm->nzpad-NOP; iz++) { */
+    /* 	      /\* Qx(i, j+1/2), m+1/2 *\/ */
+    /* 	      qpx[ix][iz] = ( qox[ix][iz] + coeff_E[ix][iz] * qox[ix][iz]  */
+    /* 	                                  + coeff_F[ix][iz] * Dx(txx,ix,iz,idx)  */
+    /* 	                                  + coeff_F[ix][iz] * Dz(tzx,ix,iz,idz) */
+    /* 	                                  + coeff_G[ix][iz] * Dx(  p,ix,iz,idx)  ) / coeff_D[ix][iz]; */
+    /* 	      /\* Qz(i+1/2, j), m+1/2 *\/ */
+    /* 	      qpz[ix][iz] = ( qoz[ix][iz] + coeff_E[ix][iz] * qoz[ix][iz]  */
+    /* 	                                  + coeff_F[ix][iz] * Dx(txz,ix,iz,idx)  */
+    /* 	                                  + coeff_F[ix][iz] * Dz(tzz,ix,iz,idz) */
+    /* 	                                  + coeff_G[ix][iz] * Dz(  p,ix,iz,idz)  ) / coeff_D[ix][iz]; */
+    /* 	      /\* Vx(i, j+1/2), m+1/2 *\/ */
+    /* 	      vpx[ix][iz] =   vox[ix][iz] + coeff_A[ix][iz] * Dx(txx,ix,iz,idx) */
+    /* 	                                  + coeff_A[ix][iz] * Dz(tzx,ix,iz,idz) */
+    /* 	                                  + coeff_B[ix][iz] * Dx(  p,ix,iz,idx) */
+    /* 	                                  + coeff_C[ix][iz] * (qpx[ix][iz] + qox[ix][iz])/2.0; */
+    /* 	      /\* Vz(i+1/2, j), m+1/2 *\/ */
+    /* 	      vpz[ix][iz] =   voz[ix][iz] + coeff_A[ix][iz] * Dx(txz,ix,iz,idx) */
+    /* 	                                  + coeff_A[ix][iz] * Dz(tzz,ix,iz,idz) */
+    /* 	                                  + coeff_B[ix][iz] * Dz(  p,ix,iz,idx) */
+    /* 	                                  + coeff_C[ix][iz] * (qpz[ix][iz] + qoz[ix][iz])/2.0; */
+
+    /*   } */
+    /* } */
+    /* /\* particle displacement *\/ */
+    /* utz=umz; utx=umx; */
+    /* umz=uoz; umx=uox; */
+    /* uoz=upz; uox=upx; */
+    /* upz=utz; upx=utx; */
+
+    /* /\* relative displacement *\/ */
+    /* wtz=wmz; wtx=wmx; */
+    /* wmz=woz; wmx=wox; */
+    /* woz=wpz; wox=wpx; */
+    /* wpz=wtz; wpx=wtx; */
+
+    /* /\* partcle velocity *\/ */
+    /* vtz=vmz; vtx=vmx; */
+    /* vmz=voz; vmx=vox; */
+    /* voz=vpz; vox=vpx; */
+    /* vpz=vtz; vpx=vtx; */
+
+    /* /\* relative velocity *\/ */
+    /* qtz=qmz; qtx=qmx; */
+    /* qmz=qoz; qmx=qox; */
+    /* qoz=qpz; qox=qpx; */
+    /* qpz=qtz; qpx=qtx; */
+
+    /* /\* Apply the zero-incidence boundary condition *\/ */
+    /* if (abcone){ */
+    /*   /\* if (verb) sf_warning("Applying zero-incidence boundary"); *\/ */
+    /*   abcone2d_apply(voz,vmz,NOP,abcp,fdm); */
+    /*   abcone2d_apply(vox,vmx,NOP,abcp,fdm); */
+
+    /*   abcone2d_apply(qoz,qmz,NOP,abcp,fdm); */
+    /*   abcone2d_apply(qox,qmx,NOP,abcp,fdm); */
+
+    /*   abcone2d_apply(voz,vmz,NOP,abcs,fdm); */
+    /*   abcone2d_apply(vox,vmx,NOP,abcs,fdm); */
+
+    /*   abcone2d_apply(qoz,qmz,NOP,abcs,fdm); */
+    /*   abcone2d_apply(qox,qmx,NOP,abcs,fdm); */
+    /* } */
+    /* /\* sponge ABC *\/ */
+    /* if (dabc){ */
+    /*   /\* if (verb) sf_warning("Applying sponge ABC");       *\/ */
+    /*   sponge2d_apply(vmz,spo,fdm); */
+    /*   sponge2d_apply(voz,spo,fdm); */
+    /*   sponge2d_apply(vpz,spo,fdm); */
+
+    /*   sponge2d_apply(qmz,spo,fdm); */
+    /*   sponge2d_apply(qoz,spo,fdm); */
+    /*   sponge2d_apply(qpz,spo,fdm); */
+
+    /*   sponge2d_apply(vmx,spo,fdm); */
+    /*   sponge2d_apply(vox,spo,fdm); */
+    /*   sponge2d_apply(vpx,spo,fdm); */
+
+    /*   sponge2d_apply(qmx,spo,fdm); */
+    /*   sponge2d_apply(qox,spo,fdm); */
+    /*   sponge2d_apply(qpx,spo,fdm); */
+    /* } */
+    

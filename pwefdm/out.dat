@@ -1,0 +1,4575 @@
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+scons: `layers.rsf' is up to date.
+scons: `sro-2d.rsf' is up to date.
+scons: `fro-2d.rsf' is up to date.
+scons: `phi-2d.rsf' is up to date.
+scons: `kdr-2d.rsf' is up to date.
+scons: `kfl-2d.rsf' is up to date.
+scons: `ksg-2d.rsf' is up to date.
+scons: `prm-2d.rsf' is up to date.
+scons: `fvs-2d.rsf' is up to date.
+scons: `shm-2d.rsf' is up to date.
+scons: `tor-2d.rsf' is up to date.
+scons: `wav_.rsf' is up to date.
+scons: `souz.rsf' is up to date.
+scons: `soux.rsf' is up to date.
+scons: `soup.rsf' is up to date.
+scons: `wave-2d.rsf' is up to date.
+scons: `wave-2d-1.vpl' is up to date.
+scons: `wave-2d-2.vpl' is up to date.
+scons: `_wave-2d-1.vpl' is up to date.
+scons: `_wave-2d-2.vpl' is up to date.
+scons: `wave-2d.vpl' is up to date.
+scons: `ss-2d.rsf' is up to date.
+scons: `rr-2d.rsf' is up to date.
+scons: `rr-2d.vpl' is up to date.
+scons: `ss-2d.vpl' is up to date.
+scons: `kdr-2d.vpl' is up to date.
+scons: `shm-2d.vpl' is up to date.
+scons: `fro-2d.vpl' is up to date.
+< wave-2d.rsf /home/raptor/rsfsrc/bin/sfpwefd2D nbell=5 ani=1 jsnap=30 dabc=y opot=n nb=20 verb=y free=n snap=y srctype=2 fmax=60 sro=sro-2d.rsf fro=fro-2d.rsf phi=phi-2d.rsf kdr=kdr-2d.rsf kfl=kfl-2d.rsf ksg=ksg-2d.rsf prm=prm-2d.rsf fvs=fvs-2d.rsf shm=shm-2d.rsf tor=tor-2d.rsf sou=ss-2d.rsf rec=rr-2d.rsf wfl=Iw-2d.rsf > Id-2d.rsf
+sfpwefd2D: n=1501   o=   0.000   d=   0.000   l=time 	 u=s
+sfpwefd2D: n= 128   o=   0.000   d=   8.000   l=space z 	 u=m
+sfpwefd2D: n= 256   o=   0.000   d=   8.000   l=space x 	 u=m
+sfpwefd2D: n=   1   o=   0.000   d=   1.000   l=sources 	 u=m
+sfpwefd2D: n= 256   o=   0.000   d=   8.000   l=receivers 	 u=m
+sfpwefd2D: nbell=5
+sfpwefd2D: CFL: safety margin 0.500000
+sfpwefd2D: expanding domain to include boundaries
+
+sfpwefd2D: n= 168   o=-160.000   d=   8.000   l=space z 	 u=m
+sfpwefd2D: n= 296   o=-160.000   d=   8.000   l=space x 	 u=m
+sfpwefd2D: n= 128   o=   0.000   d=   8.000   l= 	 u=
+sfpwefd2D: n= 256   o=   0.000   d=   8.000   l= 	 u=
+sfpwefd2D: n=  51   o=   0.000   d=   0.012   l=time 	 u=s
+sfpwefd2D: all parameter variables allocated
+
+sfpwefd2D: local parameters generated
+
+sfpwefd2D: Vp max: 1874.129639
+sfpwefd2D: Vp min: 1874.129639
+sfpwefd2D: Vs max: 459.496338
+sfpwefd2D: Vs min: 459.496338
+sfpwefd2D: dt: 0.000400
+sfpwefd2D: vpmax: 1874.129639
+sfpwefd2D: sqrt(2): 1.414214
+sfpwefd2D: tdp: 1.060168
+sfpwefd2D: CFL: Stability check ... P-wave... PASSED
+sfpwefd2D: CFL: fmax must be less than < 20.706403
+sfpwefd2D: CFL: Stability check ... S-wave... PASSED
+sfpwefd2D: CFL: fmax must be less than < 5.076765
+sfpwefd2D: absorbing boundaries set
+
+sfpwefd2D: all wavefield structures allocated
+
+
+0/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+2/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+3/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+4/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+5/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+6/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+7/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+8/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+9/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+10/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+11/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+12/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+13/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+14/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+15/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+16/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+17/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+18/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+19/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+20/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+21/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+22/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+23/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+24/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+25/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+26/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+27/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+28/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+29/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+30/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+31/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+32/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+33/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+34/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+35/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+36/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+37/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+38/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+39/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+40/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+41/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+42/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+43/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+44/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+45/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+46/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+47/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+48/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+49/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+50/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+51/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+52/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+53/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+54/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+55/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+56/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+57/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+58/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+59/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+60/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+61/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+62/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+63/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+64/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+65/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+66/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+67/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+68/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+69/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+70/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+71/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+72/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+73/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+74/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+75/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+76/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+77/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+78/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+79/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+80/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+81/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+82/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+83/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+84/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+85/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+86/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+87/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+88/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+89/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+90/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+91/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+92/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+93/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+94/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+95/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+96/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+97/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+98/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+99/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+100/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+101/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+102/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+103/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+104/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+105/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+106/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+107/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+108/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+109/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+110/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+111/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+112/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+113/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+114/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+115/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+116/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+117/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+118/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+119/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+120/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+121/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+122/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+123/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+124/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+125/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+126/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+127/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+128/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+129/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+130/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+131/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+132/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+133/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+134/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+135/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+136/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+137/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+138/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+139/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+140/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+141/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+142/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+143/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+144/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+145/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+146/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+147/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+148/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+149/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+150/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+151/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+152/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+153/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+154/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+155/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+156/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+157/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+158/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+159/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+160/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+161/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+162/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+163/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+164/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+165/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+166/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+167/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+168/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+169/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+170/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+171/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+172/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+173/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+174/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+175/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+176/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+177/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+178/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+179/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+180/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+181/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+182/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+183/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+184/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+185/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+186/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+187/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+188/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+189/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+190/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+191/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+192/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+193/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+194/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+195/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+196/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+197/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+198/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+199/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+200/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+201/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+202/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+203/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+204/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+205/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+206/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+207/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+208/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+209/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+210/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+211/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+212/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+213/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+214/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+215/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+216/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+217/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+218/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+219/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+220/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+221/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+222/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+223/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+224/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+225/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+226/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+227/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+228/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+229/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+230/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+231/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+232/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+233/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+234/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+235/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+236/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+237/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+238/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+239/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+240/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+241/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+242/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+243/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+244/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+245/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+246/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+247/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+248/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+249/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+250/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+251/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+252/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+253/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+254/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+255/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+256/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+257/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+258/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+259/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+260/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+261/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+262/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+263/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+264/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+265/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+266/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+267/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+268/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+269/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+270/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+271/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+272/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+273/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+274/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+275/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+276/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+277/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+278/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+279/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+280/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+281/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+282/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+283/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+284/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+285/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+286/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+287/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+288/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+289/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+290/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+291/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+292/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+293/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+294/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+295/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+296/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+297/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+298/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+299/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+300/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+301/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+302/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+303/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+304/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+305/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+306/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+307/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+308/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+309/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+310/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+311/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+312/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+313/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+314/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+315/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+316/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+317/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+318/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+319/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+320/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+321/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+322/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+323/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+324/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+325/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+326/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+327/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+328/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+329/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+330/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+331/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+332/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+333/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+334/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+335/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+336/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+337/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+338/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+339/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+340/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+341/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+342/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+343/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+344/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+345/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+346/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+347/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+348/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+349/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+350/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+351/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+352/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+353/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+354/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+355/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+356/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+357/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+358/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+359/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+360/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+361/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+362/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+363/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+364/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+365/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+366/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+367/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+368/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+369/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+370/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+371/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+372/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+373/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+374/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+375/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+376/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+377/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+378/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+379/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+380/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+381/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+382/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+383/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+384/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+385/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+386/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+387/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+388/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+389/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+390/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+391/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+392/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+393/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+394/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+395/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+396/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+397/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+398/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+399/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+400/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+401/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+402/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+403/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+404/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+405/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+406/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+407/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+408/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+409/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+410/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+411/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+412/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+413/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+414/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+415/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+416/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+417/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+418/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+419/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+420/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+421/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+422/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+423/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+424/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+425/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+426/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+427/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+428/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+429/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+430/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+431/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+432/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+433/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+434/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+435/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+436/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+437/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+438/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+439/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+440/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+441/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+442/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+443/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+444/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+445/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+446/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+447/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+448/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+449/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+450/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+451/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+452/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+453/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+454/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+455/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+456/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+457/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+458/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+459/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+460/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+461/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+462/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+463/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+464/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+465/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+466/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+467/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+468/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+469/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+470/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+471/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+472/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+473/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+474/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+475/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+476/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+477/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+478/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+479/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+480/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+481/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+482/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+483/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+484/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+485/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+486/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+487/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+488/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+489/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+490/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+491/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+492/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+493/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+494/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+495/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+496/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+497/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+498/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+499/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+500/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+501/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+502/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+503/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+504/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+505/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+506/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+507/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+508/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+509/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+510/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+511/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+512/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+513/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+514/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+515/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+516/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+517/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+518/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+519/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+520/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+521/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+522/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+523/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+524/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+525/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+526/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+527/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+528/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+529/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+530/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+531/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+532/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+533/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+534/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+535/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+536/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+537/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+538/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+539/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+540/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+541/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+542/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+543/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+544/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+545/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+546/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+547/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+548/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+549/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+550/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+551/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+552/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+553/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+554/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+555/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+556/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+557/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+558/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+559/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+560/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+561/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+562/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+563/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+564/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+565/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+566/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+567/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+568/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+569/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+570/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+571/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+572/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+573/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+574/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+575/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+576/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+577/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+578/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+579/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+580/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+581/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+582/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+583/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+584/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+585/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+586/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+587/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+588/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+589/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+590/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+591/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+592/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+593/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+594/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+595/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+596/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+597/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+598/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+599/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+600/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+601/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+602/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+603/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+604/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+605/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+606/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+607/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+608/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+609/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+610/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+611/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+612/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+613/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+614/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+615/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+616/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+617/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+618/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+619/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+620/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+621/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+622/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+623/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+624/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+625/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+626/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+627/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+628/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+629/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+630/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+631/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+632/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+633/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+634/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+635/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+636/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+637/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+638/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+639/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+640/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+641/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+642/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+643/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+644/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+645/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+646/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+647/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+648/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+649/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+650/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+651/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+652/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+653/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+654/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+655/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+656/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+657/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+658/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+659/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+660/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+661/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+662/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+663/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+664/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+665/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+666/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+667/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+668/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+669/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+670/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+671/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+672/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+673/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+674/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+675/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+676/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+677/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+678/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+679/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+680/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+681/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+682/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+683/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+684/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+685/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+686/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+687/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+688/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+689/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+690/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+691/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+692/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+693/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+694/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+695/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+696/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+697/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+698/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+699/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+700/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+701/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+702/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+703/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+704/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+705/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+706/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+707/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+708/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+709/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+710/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+711/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+712/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+713/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+714/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+715/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+716/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+717/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+718/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+719/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+720/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+721/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+722/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+723/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+724/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+725/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+726/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+727/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+728/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+729/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+730/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+731/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+732/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+733/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+734/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+735/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+736/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+737/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+738/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+739/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+740/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+741/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+742/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+743/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+744/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+745/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+746/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+747/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+748/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+749/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+750/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+751/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+752/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+753/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+754/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+755/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+756/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+757/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+758/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+759/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+760/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+761/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+762/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+763/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+764/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+765/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+766/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+767/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+768/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+769/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+770/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+771/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+772/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+773/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+774/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+775/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+776/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+777/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+778/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+779/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+780/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+781/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+782/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+783/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+784/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+785/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+786/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+787/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+788/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+789/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+790/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+791/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+792/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+793/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+794/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+795/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+796/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+797/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+798/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+799/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+800/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+801/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+802/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+803/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+804/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+805/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+806/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+807/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+808/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+809/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+810/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+811/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+812/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+813/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+814/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+815/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+816/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+817/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+818/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+819/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+820/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+821/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+822/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+823/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+824/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+825/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+826/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+827/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+828/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+829/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+830/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+831/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+832/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+833/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+834/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+835/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+836/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+837/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+838/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+839/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+840/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+841/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+842/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+843/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+844/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+845/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+846/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+847/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+848/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+849/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+850/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+851/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+852/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+853/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+854/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+855/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+856/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+857/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+858/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+859/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+860/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+861/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+862/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+863/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+864/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+865/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+866/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+867/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+868/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+869/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+870/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+871/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+872/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+873/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+874/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+875/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+876/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+877/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+878/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+879/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+880/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+881/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+882/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+883/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+884/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+885/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+886/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+887/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+888/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+889/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+890/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+891/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+892/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+893/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+894/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+895/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+896/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+897/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+898/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+899/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+900/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+901/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+902/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+903/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+904/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+905/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+906/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+907/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+908/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+909/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+910/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+911/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+912/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+913/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+914/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+915/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+916/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+917/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+918/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+919/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+920/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+921/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+922/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+923/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+924/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+925/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+926/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+927/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+928/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+929/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+930/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+931/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+932/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+933/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+934/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+935/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+936/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+937/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+938/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+939/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+940/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+941/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+942/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+943/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+944/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+945/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+946/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+947/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+948/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+949/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+950/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+951/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+952/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+953/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+954/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+955/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+956/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+957/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+958/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+959/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+960/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+961/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+962/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+963/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+964/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+965/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+966/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+967/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+968/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+969/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+970/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+971/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+972/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+973/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+974/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+975/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+976/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+977/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+978/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+979/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+980/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+981/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+982/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+983/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+984/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+985/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+986/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+987/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+988/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+989/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+990/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+991/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+992/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+993/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+994/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+995/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+996/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+997/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+998/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+999/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1000/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1001/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1002/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1003/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1004/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1005/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1006/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1007/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1008/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1009/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1010/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1011/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1012/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1013/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1014/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1015/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1016/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1017/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1018/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1019/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1020/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1021/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1022/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1023/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1024/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1025/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1026/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1027/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1028/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1029/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1030/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1031/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1032/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1033/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1034/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1035/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1036/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1037/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1038/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1039/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1040/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1041/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1042/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1043/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1044/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1045/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1046/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1047/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1048/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1049/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1050/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1051/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1052/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1053/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1054/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1055/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1056/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1057/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1058/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1059/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1060/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1061/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1062/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1063/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1064/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1065/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1066/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1067/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1068/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1069/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1070/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1071/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1072/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1073/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1074/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1075/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1076/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1077/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1078/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1079/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1080/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1081/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1082/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1083/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1084/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1085/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1086/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1087/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1088/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1089/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1090/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1091/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1092/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1093/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1094/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1095/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1096/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1097/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1098/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1099/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1100/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1101/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1102/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1103/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1104/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1105/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1106/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1107/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1108/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1109/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1110/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1111/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1112/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1113/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1114/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1115/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1116/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1117/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1118/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1119/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1120/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1121/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1122/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1123/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1124/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1125/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1126/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1127/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1128/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1129/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1130/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1131/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1132/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1133/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1134/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1135/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1136/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1137/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1138/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1139/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1140/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1141/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1142/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1143/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1144/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1145/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1146/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1147/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1148/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1149/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1150/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1151/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1152/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1153/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1154/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1155/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1156/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1157/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1158/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1159/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1160/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1161/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1162/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1163/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1164/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1165/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1166/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1167/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1168/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1169/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1170/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1171/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1172/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1173/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1174/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1175/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1176/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1177/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1178/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1179/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1180/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1181/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1182/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1183/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1184/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1185/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1186/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1187/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1188/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1189/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1190/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1191/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1192/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1193/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1194/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1195/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1196/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1197/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1198/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1199/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1200/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1201/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1202/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1203/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1204/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1205/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1206/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1207/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1208/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1209/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1210/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1211/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1212/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1213/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1214/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1215/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1216/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1217/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1218/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1219/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1220/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1221/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1222/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1223/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1224/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1225/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1226/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1227/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1228/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1229/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1230/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1231/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1232/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1233/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1234/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1235/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1236/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1237/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1238/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1239/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1240/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1241/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1242/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1243/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1244/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1245/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1246/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1247/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1248/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1249/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1250/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1251/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1252/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1253/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1254/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1255/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1256/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1257/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1258/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1259/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1260/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1261/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1262/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1263/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1264/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1265/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1266/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1267/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1268/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1269/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1270/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1271/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1272/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1273/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1274/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1275/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1276/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1277/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1278/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1279/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1280/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1281/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1282/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1283/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1284/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1285/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1286/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1287/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1288/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1289/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1290/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1291/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1292/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1293/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1294/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1295/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1296/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1297/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1298/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1299/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1300/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1301/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1302/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1303/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1304/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1305/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1306/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1307/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1308/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1309/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1310/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1311/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1312/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1313/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1314/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1315/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1316/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1317/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1318/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1319/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1320/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1321/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1322/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1323/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1324/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1325/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1326/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1327/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1328/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1329/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1330/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1331/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1332/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1333/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1334/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1335/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1336/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1337/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1338/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1339/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1340/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1341/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1342/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1343/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1344/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1345/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1346/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1347/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1348/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1349/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1350/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1351/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1352/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1353/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1354/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1355/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1356/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1357/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1358/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1359/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1360/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1361/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1362/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1363/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1364/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1365/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1366/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1367/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1368/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1369/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1370/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1371/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1372/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1373/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1374/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1375/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1376/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1377/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1378/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1379/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1380/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1381/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1382/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1383/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1384/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1385/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1386/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1387/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1388/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1389/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1390/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1391/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1392/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1393/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1394/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1395/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1396/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1397/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1398/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1399/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1400/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1401/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1402/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1403/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1404/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1405/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1406/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1407/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1408/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1409/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1410/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1411/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1412/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1413/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1414/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1415/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1416/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1417/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1418/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1419/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1420/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1421/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1422/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1423/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1424/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1425/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1426/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1427/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1428/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1429/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1430/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1431/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1432/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1433/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1434/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1435/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1436/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1437/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1438/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1439/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1440/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1441/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1442/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1443/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1444/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1445/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1446/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1447/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1448/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1449/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1450/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1451/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1452/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1453/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1454/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1455/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1456/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1457/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1458/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1459/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1460/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1461/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1462/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1463/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1464/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1465/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1466/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1467/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1468/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1469/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1470/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1471/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1472/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1473/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1474/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1475/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1476/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1477/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1478/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1479/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1480/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1481/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1482/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1483/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1484/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1485/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1486/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1487/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1488/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1489/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1490/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1491/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1492/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1493/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1494/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1495/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1496/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1497/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1498/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1499/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+1500/1501 sfpwefd2D: Computing Acceleration
+sfpwefd2D: Saving wavefield
+sfpwefd2D: Wavefield Saved
+sfpwefd2D: End iterations
+
+< Iw-2d.rsf /home/raptor/rsfsrc/bin/sfwindow n3=1 | /home/raptor/rsfsrc/bin/sfgrey color=j scalebar=y barlabel='Amplitude' barlabelsz=6 gainpanel=all title=Wave label1=Depth unit1=m label2=Lateral unit2=m | /home/raptor/rsfsrc/bin/sfpen pixmaps=y
+< Id-2d.rsf /home/raptor/rsfsrc/bin/sfwindow n2=1 | /home/raptor/rsfsrc/bin/sftransp | /home/raptor/rsfsrc/bin/sfgrey color=j gainpanel=all title=data label1=time unit1=s label2=Lateral unit2=m > Fig/Id-2d.vpl
+scons: done building targets.

@@ -1,0 +1,1432 @@
+scons: Reading SConscript files ...
+
+scons: warning: Two different environments were specified for target aastretch.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target aastretch.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target aastretch.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target adjnull.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target adjnull.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target adjnull.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target alloc.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target alloc.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target alloc.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target axa.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target axa.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target axa.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target banded.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target banded.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target banded.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target bigsolver.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target bigsolver.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target bigsolver.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target blas.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target blas.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target blas.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target box.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target box.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target box.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target butter.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target butter.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target butter.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target c99.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target c99.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target c99.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target causint.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target causint.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target causint.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ccdstep.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ccdstep.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ccdstep.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ccgstep.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ccgstep.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ccgstep.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cconjgrad.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cconjgrad.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cconjgrad.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ccopy.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ccopy.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ccopy.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cell.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cell.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cell.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target celltrace.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target celltrace.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target celltrace.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cdstep.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cdstep.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cdstep.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cgstep.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cgstep.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cgstep.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target chain.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target chain.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target chain.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target clist.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target clist.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target clist.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cmatmult.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cmatmult.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cmatmult.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target conjgrad.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target conjgrad.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target conjgrad.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target conjprec.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target conjprec.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target conjprec.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target copy.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target copy.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target copy.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target cosft.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target cosft.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target cosft.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ctriangle.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ctriangle.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ctriangle.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ctrianglen.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ctrianglen.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ctrianglen.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target decart.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target decart.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target decart.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target deriv.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target deriv.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target deriv.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target divn.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target divn.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target divn.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target dottest.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target dottest.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target dottest.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target doubint.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target doubint.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target doubint.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target dtrianglen.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target dtrianglen.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target dtrianglen.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target edge.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target edge.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target edge.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target eno.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target eno.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target eno.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target eno2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target eno2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target eno2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target eno3.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target eno3.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target eno3.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target error.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target error.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target error.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target fftlabel.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target fftlabel.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target fftlabel.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target file.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target file.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target file.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target files.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target files.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target files.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target freqfilt2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target ftutil.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target ftutil.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target ftutil.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target fzero.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target fzero.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target fzero.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target gaussel.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target gaussel.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target gaussel.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target getpar.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target getpar.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target getpar.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target gmres.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target gmres.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target gmres.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target grad2fill.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target grad2fill.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target grad2fill.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target halfint.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target halfint.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target halfint.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target helicon.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target helicon.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target helicon.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target helix.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target helix.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target helix.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target hilbert.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target hilbert.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target hilbert.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target igrad1.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target igrad1.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target igrad1.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target igrad2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target igrad2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target igrad2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target impl2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target impl2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target impl2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target int1.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target int1.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target int1.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target int2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target int2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target int2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target int3.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target int3.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target int3.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target interp.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target interp.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target interp.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target interp_spline.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target interp_spline.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target interp_spline.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target irls.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target irls.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target irls.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target komplex.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target komplex.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target komplex.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target llist.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target llist.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target llist.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target lsint2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target lsint2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target lsint2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target mask.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target mask.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target mask.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target math1.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target math1.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target math1.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target matmult2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target matmult2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target matmult2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target multidivn.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target multidivn.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target multidivn.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target multidivnL1.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target multidivnL1.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target multidivnL1.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target neighbors.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target neighbors.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target neighbors.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target omptools.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target omptools.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target omptools.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target parallel.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target parallel.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target parallel.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target point.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target point.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target point.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target polydiv.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target polydiv.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target polydiv.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target pqueue.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target pqueue.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target pqueue.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target pweno.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target pweno.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target pweno.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target randn.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target randn.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target randn.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target recfilt.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target recfilt.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target recfilt.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target repeat.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target repeat.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target repeat.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target runge.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target runge.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target runge.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target quantile.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target quantile.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target quantile.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target quadratic.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target quadratic.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target quadratic.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target sharpen.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target sharpen.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target sharpen.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target sharpinv.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target sharpinv.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target sharpinv.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target simtab.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target simtab.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target simtab.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target slice.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target slice.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target slice.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target spline.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target spline.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target spline.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target stack.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target stack.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target stack.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target stretch.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target stretch.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target stretch.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target stretch4.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target stretch4.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target stretch4.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target system.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target system.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target system.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target tent2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target tent2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target tent2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target timer.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target timer.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target timer.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target tinysolver.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target tinysolver.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target tinysolver.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target triangle.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target triangle.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target triangle.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target triangle1.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target triangle1.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target triangle1.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target triangle2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target triangle2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target triangle2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target trianglen.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target trianglen.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target trianglen.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target tridiagonal.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target tridiagonal.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target tridiagonal.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target upgrad.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target upgrad.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target upgrad.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target vector.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target vector.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target vector.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target wavelet.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target wavelet.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target wavelet.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target weight.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target weight.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target weight.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target weight2.h,
+	but they appear to have the same action: __header(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 54, in <module>
+
+scons: warning: Two different environments were specified for target weight2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 56, in <module>
+
+scons: warning: Two different environments were specified for target weight2.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 62, in <module>
+
+scons: warning: Two different environments were specified for target kiss_fft.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 70, in <module>
+
+scons: warning: Two different environments were specified for target kiss_fftr.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 70, in <module>
+
+scons: warning: Two different environments were specified for target mt19937ar.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 70, in <module>
+
+scons: warning: Two different environments were specified for target librsf.a,
+	but they appear to have the same action: $AR $ARFLAGS $TARGET $SOURCES
+$RANLIB $RANLIBFLAGS $TARGET
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 70, in <module>
+
+scons: warning: Two different environments were specified for target kiss_fft.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 74, in <module>
+
+scons: warning: Two different environments were specified for target kiss_fftr.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 74, in <module>
+
+scons: warning: Two different environments were specified for target mt19937ar.os,
+	but they appear to have the same action: $SHCC -o $TARGET -c $SHCFLAGS $SHCCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 74, in <module>
+
+scons: warning: Two different environments were specified for target libdrsf.so,
+	but they appear to have the same action: SharedFlagChecker(target, source, env)
+$SHLINK -o $TARGET $SHLINKFLAGS $__SHLIBVERSIONFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+LibSymlinksActionFunction(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 74, in <module>
+
+scons: warning: Two different environments were specified for target rsf.h,
+	but they appear to have the same action: __merge(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 76, in <module>
+
+scons: warning: Two different environments were specified for target /home/raptor/rsfsrc/lib/librsf.a,
+	but they appear to have the same action: installFunc(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 78, in <module>
+
+scons: warning: Two different environments were specified for target /home/raptor/rsfsrc/lib/libdrsf.so,
+	but they appear to have the same action: installFunc(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 81, in <module>
+
+scons: warning: Two different environments were specified for target /home/raptor/rsfsrc/include/rsf.h,
+	but they appear to have the same action: installFunc(target, source, env)
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 83, in <module>
+
+scons: warning: Two different environments were specified for target Testbanded.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testbanded.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testcmatmult.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testcmatmult.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testeno2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testeno2.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testfft.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testfft.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testfile.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testfile.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testgaussel.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testgaussel.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testgetpar.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testgetpar.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testlsint2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testlsint2.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testmatmult2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testmatmult2.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testquantile.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testquantile.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testsimtab.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testsimtab.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testtriangle2.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testtriangle2.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+
+scons: warning: Two different environments were specified for target Testtrianglen.o,
+	but they appear to have the same action: $CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 100, in <module>
+
+scons: warning: Two different environments were specified for target Testtrianglen.x,
+	but they appear to have the same action: $LINK -o $TARGET $LINKFLAGS $__RPATH $SOURCES $_LIBDIRFLAGS $_LIBFLAGS
+File "/home/raptor/rsfsrc/api/c/SConstruct", line 102, in <module>
+scons: done reading SConscript files.
+scons: Building targets ...
+scons: *** Do not know how to make File target `install' (/home/raptor/rsfsrc/user/rlwalker/install).  Stop.
+scons: building terminated because of errors.

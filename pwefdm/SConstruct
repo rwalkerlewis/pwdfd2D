@@ -1,0 +1,343 @@
+###############################################################
+# Created by Robert Walker
+# Dec. 2018
+# 2D poroelastic finite difference modeling
+###############################################################
+from rsf.proj import *
+from rsf.recipes import fdmod,stiffness
+
+# ------------------------------------------------------------
+par = {
+    'nx':301,  'ox':0, 'dx':3.,     'lx':'x', 'ux':'m',
+    'ny':301,  'oy':0, 'dy':3.,     'ly':'y', 'uy':'m',
+    'nz':301,  'oz':0, 'dz':3.,     'lz':'z', 'uz':'m',
+    'nt':1001, 'ot':0, 'dt':0.0002, 'lt':'t', 'ut':'s',
+    'kt':100,
+    'jsnap':20,
+    'height':10,
+    'nb':20,
+    'frq':30.0, # source wavelet frequency
+    'nbell':5
+    }
+fdmod.param(par)
+par['nframe']=5
+par['iframe']=4
+par['dabc']='y'
+#-------------------------------------------------------------
+def arr2str(array,sep=' '):
+    return string.join(map(str,array),sep)
+#-------------------------------------------------------------
+# Create Layers
+layers = ((10.0,10.0,10.0,10.0,10.0),
+	        (150.,150.,150.,150.,150.),
+	        (250.,250.,250.,250.,250.))
+
+n1 = len(layers[0])
+n2 = len(layers)
+
+layers1 = string.join(map(arr2str,layers),' ')
+#print(layers1)
+Flow('layers',None,
+     '''
+     echo %s
+     n1=%g n2=%g o1=%g d1=%g
+     data_format=ascii_float in=$TARGET
+     ''' % (layers1,n1,n2,par['ox'],par['dx'] ))
+
+# ------------------------------------------------------------
+# poroelastic parameters
+
+# solid grain density, kg/m**3
+sro =(  2650.0,
+	      2650.0,
+	      2650.0,
+	      2650.0)
+sro1= arr2str(sro,',')
+
+# fluid density, kg/m**3
+fro =(  1000.0,
+	      1000.0,
+	      1000.0,
+	      1000.0)
+fro1= arr2str(fro,',')
+
+# drained bulk modulus, Pa (kg / m / s**2)
+kdr =(  6.21e08,
+	      6.21e08,
+	      6.21e08,
+	      6.21e08)
+kdr1= arr2str(kdr,',')
+
+# solid grain bulk modulus, Pa (kg / m / s**2)
+ksg =(  3.6e10,
+	      3.6e10,
+	      3.6e10,
+	      3.6e10)
+ksg1= arr2str(ksg,',')
+
+# fluid bulk modulus, Pa (kg / m / s**2)
+kfl =(  2.25e09,
+	      2.25e09,
+	      2.25e09,
+	      2.25e09)
+kfl1= arr2str(kfl,',')
+
+# fluid viscosity, Pa*s (kg / m / s)
+fvs =(  0.001,
+	      0.001,
+	      0.001,
+	      0.001)
+fvs1= arr2str(fvs,',')
+
+# porosity, %
+phi =(  0.1,
+	      0.1,
+	      0.1,
+	      0.1)
+phi1= arr2str(phi,',')
+
+# permeability, m**2
+prm =(  1.0e-12,
+	      1.0e-12,
+	      1.0e-12,
+	      1.0e-12)
+prm1= arr2str(prm,',')
+
+# shear modulus, Pa (kg / m / s**2)
+shm =(  4.55e09,
+	      4.55e09,
+	      4.55e09,
+	      4.55e09)
+shm1= arr2str(shm,',')
+
+# tortuosity, -
+tor =(  10.0,
+	      10.0,
+	      10.0,
+	      10.0)
+tor1= arr2str(tor,',')
+
+# # Density in g/cc, converted to kg/ckm
+# rho = (2*1000000000000,
+#        2*1000000000000,
+#        6*1000000000000,
+#        2*1000000000000)
+# rho1=arr2str(rho,',')
+
+#-----------------------------------------------------------
+Flow('sro-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],sro1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('fro-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],fro1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('phi-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],phi1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('kdr-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],kdr1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('kfl-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],kfl1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('ksg-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],ksg1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('prm-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],prm1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('fvs-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],fvs1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('shm-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],shm1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+
+Flow('tor-2d','layers',
+     '''
+     spline o1=%g d1=%g n1=%d |
+     unif2 o1=%g d1=%g n1=%d v00=%s |
+     dd form=native |
+     put label1=%s label2=%s unit1=%s unit2=%s
+     ''' % (par['ox'],par['dx'],par['nx'],
+	    par['oz'],par['dz'],par['nz'],tor1,
+	    par['lz'],par['lx'],par['uz'],par['ux']))
+# ------------------------------------------------------------
+par['kz']=2./3.*par['nz']
+
+# ------------------------------------------------------------
+fdmod.wavelet('wav_',par['frq'],par)
+
+# ------------------------------------------------------------
+# poroelastic source
+# ------------------------------------------------------------
+Flow('souz','wav_','math output=input*0.9')
+Flow('soux','wav_','math output=input*0.1')
+Flow('soup','wav_','math output=input*0')
+
+Flow('wave-2d',['souz','soux'],
+     '''
+     cat axis=2 space=n ${SOURCES[1:2]} |
+     transp plane=12 |
+     transp plane=23 |
+     transp plane=12
+     ''')
+fdmod.ewavelet('wave-2d','',par)
+
+# ------------------------------------------------------------
+# source/receiver coordinates
+# ------------------------------------------------------------
+
+xsou=par['ox']+(par['nx']/2*par['dx']);
+zsou=par['oz']+(par['nz']/2*par['dz']);
+#zsou=100.0
+
+fdmod.point('ss-2d',xsou,zsou,par)
+fdmod.horizontal('rr-2d',zsou,par)
+#fdmod.point('rr-2d',xsou,zsou,par)
+Plot('rr-2d',fdmod.rrplot('title="Receiver Line" wheretitle=b',par))
+Plot('ss-2d',fdmod.ssplot('title="Source" wheretitle=b',par))
+
+# ------------------------------------------------------------
+Plot('kdr-2d',fdmod.cgrey('allpos=y bias=2.0',par))
+Plot('shm-2d',fdmod.cgrey('allpos=y bias=1.0 title="Shear Modulus"',par))
+Plot('fro-2d',fdmod.cgrey('allpos=y bias=2.0 title="Fluid Density"',par))
+#Result('kdr-2d','kdr-2d','Overlay')
+#Result('vp-2d-r','vp-2d rr-2d','Overlay')
+#Result('vs-2d','vs-2d ss-2d','Overlay')
+#Result('ro-2d','ro-2d ss-2d','Overlay')
+
+#stiffness.iso2d('Ic-2d','vp-2d','vs-2d','ro-2d',par)
+
+# Display
+#Result('fro-2d',
+#        '''
+#        sfgrey title="rho Plot" transp=n color=b bias=128
+#        clip=100 screenratio=1
+#        ''')
+
+## ------------------------------------------------------------
+## 2D elastic modeling
+#stiffness.cplot2d('Ic-2d',1,1,par)
+
+#fdmod.ewefd2d('Id-2d','Iw-2d','wave-2d','Ic-2d','ro-2d','ss-2d','rr-2d','ssou=n opot=n',par)
+#fdmod.emovie( 'Iw-2d-movie','Iw-2d',par['nframe'],'pclip=99.9 color=j',2,par)
+
+#Result('Id-2d','window n2=1 | transp |' + fdmod.dgrey('title="Model Response" ',par))
+
+
+#"""
+##--------------------------------------------------------------
+# Pwefd modeling
+fmax = par['frq']*1.5
+Flow('Id-2d Iw-2d','wave-2d sro-2d fro-2d phi-2d kdr-2d kfl-2d ksg-2d prm-2d fvs-2d shm-2d tor-2d ss-2d rr-2d',
+     '''
+     pwefd2D nbell=5 ani=1 jsnap=30 dabc=y opot=n nb=20 verb=y free=n snap=y srctype=2 fmax=%g
+     sro=${SOURCES[1]}
+     fro=${SOURCES[2]}
+     phi=${SOURCES[3]}
+     kdr=${SOURCES[4]}
+     kfl=${SOURCES[5]}
+     ksg=${SOURCES[6]}
+     prm=${SOURCES[7]}
+     fvs=${SOURCES[8]}
+     shm=${SOURCES[9]}
+     tor=${SOURCES[10]}
+     sou=${SOURCES[11]}
+     rec=${SOURCES[12]}
+     wfl=${TARGETS[1]}
+     ''' % (fmax) )
+
+## Movie of wave
+Plot('Iw-2d',
+	'''
+	window n3=1 |
+	grey color=j scalebar=y barlabel='Amplitude' barlabelsz=6
+	gainpanel=all title=Wave
+	label1=Depth unit1=m label2=Lateral unit2=m
+	''',view=1)
+
+Result('Id-2d','Id-2d',
+	'''
+	window n2=1 |
+	transp |
+	grey color=j
+	gainpanel=all title=data
+	label1=time unit1=s label2=Lateral unit2=m
+	''')
+
+
+#Flow('Id-2d-1','Id-2d','dd form=native line=2 format=float')
+#
+#Result('Id-2d-trace','Id-2d-1',
+#	'''
+#	spline o1=0 d1=0.0002 n1=2001 |
+#	spline o2=0 d2=0.0002 n2=2001 |
+#	wiggle label1=Time unit1=s label2=Amplitude unit2='' title='Vertical Trace with Source'
+#	''')
+#"""
+
+End()
+#############################################################################

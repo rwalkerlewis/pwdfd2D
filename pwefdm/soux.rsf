@@ -1,0 +1,59 @@
+2.1-git	sfspike	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	o1=0
+	label1="Time"
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	unit1="s"
+	d1=0.0002
+	n1=1001
+	in="stdin"
+
+2.1-git	sfpad	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	end1=1001
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	n1=2002
+	in="stdin"
+
+2.1-git	sfricker1	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+2.1-git	sfwindow	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	o1=0
+	label1="Time"
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	unit1="s"
+	d1=0.0002
+	n1=1001
+	in="stdin"
+
+2.1-git	sfscale	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+2.1-git	sfput	user/rlwalker/pwefdm:	raptor@raptor	Sun Dec  9 19:57:46 2018
+
+	data_format="native_float"
+	in="/var/tmp/user/rlwalker/pwefdm/wav_.rsf@"
+	label1=t
+2.1-git	sfmath	user/rlwalker/pwefdm:	raptor@raptor	Mon Dec 10 00:59:50 2018
+
+	input=0
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/user/rlwalker/pwefdm/soux.rsf@"
+	x1=1

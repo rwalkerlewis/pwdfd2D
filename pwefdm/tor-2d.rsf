@@ -1,0 +1,42 @@
+10.0 10.0 10.0 10.0 10.0 150.0 150.0 150.0 150.0 150.0 250.0 250.0 250.0 250.0 250.0 n1=5 n2=3 o1=0 d1=3 data_format=ascii_float in=layers.rsf
+2.1-git	sfspline	user/rlwalker/pwefdm:	raptor@raptor	Tue Dec 11 22:34:17 2018
+
+	o1=0
+	data_format="ascii_float"
+	esize=0
+	in="stdout"
+	d1=3
+	n1=301
+	in="stdin"
+
+2.1-git	sfunif2	user/rlwalker/pwefdm:	raptor@raptor	Tue Dec 11 22:34:17 2018
+
+	o1=0
+	d2=3
+	n2=301
+	label1="Depth"
+	n3=1
+	o2=0
+	data_format="ascii_float"
+	n4=1
+	esize=0
+	in="stdout"
+	d1=3
+	n1=301
+	in="stdin"
+
+2.1-git	sfdd	user/rlwalker/pwefdm:	raptor@raptor	Tue Dec 11 22:34:17 2018
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+2.1-git	sfput	user/rlwalker/pwefdm:	raptor@raptor	Tue Dec 11 22:34:17 2018
+
+	in="/var/tmp/user/rlwalker/pwefdm/tor-2d.rsf@"
+	label1=z
+	data_format="native_float"
+	unit1=m
+	label2=x
+	unit2=m

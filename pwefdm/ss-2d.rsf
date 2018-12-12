@@ -1,0 +1,10 @@
+2.1-git	sfspike	user/rlwalker/pwefdm:	raptor@raptor	Tue Dec 11 22:34:17 2018
+
+	o1=0
+	label1="Time"
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/user/rlwalker/pwefdm/ss-2d.rsf@"
+	unit1="s"
+	d1=0.004
+	n1=2
